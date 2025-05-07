@@ -21,4 +21,4 @@ classifiers = [
 
 [project.urls]
 "Homepage" = "https://github.com/yourusername/base"
-"Bug Tracker" = "https://github.com/yourusername/base/issues" 
+"Bug Tracker" = "https://github.com/yourusername/base/issues"
