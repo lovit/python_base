@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "base"
+version = "0.1.0"
+authors = [
+    { name = "lovit", email = "soy.lovit@gmail.com" },
+]
+description = "A Python package template using uv"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/base"
+"Bug Tracker" = "https://github.com/yourusername/base/issues" 
