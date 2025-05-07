@@ -1,4 +1,4 @@
-name: pre-commit
+name: Continuous Integration
 
 on:
   push:
@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   pre-commit:
+    name: Run pre-commit hooks
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
