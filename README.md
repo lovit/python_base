@@ -1,5 +1,7 @@
 # Base
 
+[![pre-commit](https://github.com/yourusername/base/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/yourusername/base/actions/workflows/pre-commit.yml)
+
 A Python package template using uv for dependency management.
 
 ## Installation
@@ -72,6 +74,16 @@ To manually run all checks:
 ```bash
 pre-commit run --all-files
 ```
+
+### Continuous Integration
+
+This project uses GitHub Actions to run pre-commit checks on every push and pull request to the main branch. The workflow:
+
+1. Sets up Python 3.12
+2. Installs uv and dependencies
+3. Runs all pre-commit checks
+
+You can see the status of the checks in the badge at the top of this README.
 
 ### Updating Dependencies
 
