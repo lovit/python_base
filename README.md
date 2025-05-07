@@ -1,6 +1,6 @@
 # Base
 
-[![pre-commit](https://github.com/lovit/base/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/lovit/base/actions/workflows/pre-commit.yml)
+[![CI](https://github.com/lovit/base/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lovit/base/actions/workflows/ci.yml)
 
 A Python package template using uv for dependency management.
 
