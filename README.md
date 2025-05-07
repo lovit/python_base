@@ -1,6 +1,6 @@
 # Base
 
-[![pre-commit](https://github.com/yourusername/base/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/yourusername/base/actions/workflows/pre-commit.yml)
+[![pre-commit](https://github.com/lovit/base/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/lovit/base/actions/workflows/pre-commit.yml)
 
 A Python package template using uv for dependency management.
 
@@ -8,7 +8,7 @@ A Python package template using uv for dependency management.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/base.git
+git clone https://github.com/lovit/base.git
 cd base
 ```
 
